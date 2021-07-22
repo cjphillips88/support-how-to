@@ -1,11 +1,11 @@
 ---
 permalink: linux-spheres-of-support-for-dedicated-and-managed-ops/
-audit_date: '2020-12-17'
+audit_date: '2021-07-22'
 title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2020-12-17'
+last_modified_date: '2021-01-22'
 last_modified_by: Man Chung
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -23,11 +23,11 @@ This article outlines our support of software and server configurations for mach
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
 | Oracle&reg; Linux 8 | Yes | - | - | - |
 | Oracle Linux 7 | Yes | - | - | - |
-| Ubuntu&reg; 20.04 LTS (Focal Fossa) | - | Yes | - | - |
+| Ubuntu&reg; 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
 | Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
 | Ubuntu 16.04 LTS (Xenial Xerus) | Yes | Yes | Yes | Yes |
-| Debian&reg; 10 (Buster) | - | Yes | - | - |
-| Debian 9 (Stretch) | - | Yes | - | - |
+| Debian&reg; 10 (Buster) | - | Yes | Yes | Yes |
+| Debian 9 (Stretch) | - | Yes | Yes | Yes |
 | Amazon&reg; Linux 2 | - | - | Yes | - |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
@@ -103,7 +103,7 @@ The following caching tools are supported in the indicated areas:
 
 ### Clustering
 
-The following services are supported on Red Hat Cluster Suite&reg; (RHCS) in the indicated areas:
+The following services are supported on Pacemaker Cluster Suite&reg; (PCS) in the indicated areas:
 
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
@@ -111,7 +111,7 @@ The following services are supported on Red Hat Cluster Suite&reg; (RHCS) in the
 | NFS | Yes | Yes | Yes | Yes |
 | Redis | Yes | Yes | Yes | Yes |
 
-**Note**: RHCS is supported only on physical hardware platforms (not including OnMetal offerings). Oracle on RHCS is supported in tandem by the DBA team and Linux OS administrators.
+**Note**: PCS is supported only on physical hardware platforms (not including OnMetal offerings). Oracle on PCS is not supported.
 
 ### Containerization technologies
 
